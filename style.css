@@ -73,6 +73,7 @@ main{
 }
 .aside{
     display: flex;
+    justify-content: center;
 }
 .texto{
     display: flex;
@@ -143,7 +144,11 @@ p{
     text-align: center;
     display: block;
 }
-
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .correo{
     text-align: center;
     background-color:burlywood;
@@ -153,7 +158,6 @@ p{
     text-decoration: none;
     display: inline-block;
     width: 20%;
-    margin-right: 500px;
 
 }
 .contacto{
@@ -292,6 +296,12 @@ footer>h4{
     .logo{
         display: flex;
     }
+    .aside{
+        display:inline-block;
+        flex-direction: column;
+
+
+    }
     /*Pagina Abouthus*/
     .dos{
         display: flex;
@@ -347,14 +357,19 @@ footer>h4{
     flex-direction: column;
 }
 .correo{
-    display: flex;
+display: flex;
     flex-direction: column;
     text-align: center;
+    width: 60%;
     
 }
 .correo>a{
     flex-direction: column;
     text-align: center;
+}
+.contacto{
+    align-items: center;
+    width: 60%;
 }
 /*Pagina Rating*/
 article{
@@ -385,4 +400,4 @@ flex-direction: column-reverse;
 
 }
 }
-
+/* https://github.com/Emilce23/Mindy-Photo.git*/
